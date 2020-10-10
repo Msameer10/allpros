@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+	<meta charset="utf-8">
+	<title>Final Project</title>
+<style type="text/css">
+/*#di {
+	display: none;
+}*/
+body{
+	background: black;
+}
+.para{
+	font-size: 15px;
+	font-family: Bahnschrift;
+	font-style: bold;
+	color: lime;
+}
+</style>
+<script type="text/javascript">
+
+var teams = ['fcb','rmcf','atm','chla','mun','muc'];
+
+function loadT(){
+	document.getElementById("ele").innerHTML = teams;
+}
+
+function myFun(){
+	var x = prompt("Add a new team: ");
+	teams[teams.length] = x;
+	document.getElementById("ele").innerHTML = teams;
+}
+
+// var name = prompt("Name:");
+// var x
+// function na(){
+// 	document.getElementById("name").innerHTML= "Hello " + name + "!,";
+// }
+// function date(){
+// 	document.getElementById("ele").innerHTML= Date();
+// }
+
+</script>
+
+
+</head>
+<body onload="loadT()">
+
+<button onclick="myFun()">Add New TEAM</button>
+
+<p id="ele" class="para"></p>
+<!-- <header>
+	<h1>Mohammad Sameer</h1>
+<nav>
+	<a href="#">One</a>
+	<a href="#">Two</a>
+	<a href="#">Three</a>
+	<a href="#">Infinity</a>
+</nav>	
+</header>
+<section>
+	<h2>Favourite Foods</h2>
+<ul>
+	<li>Pasta</li>
+	<li>Pastries</li>
+	<li>Dates</li>
+	<li>Biryani</li>
+</ul>
+</section>
+<section>
+	<h2>Achievements</h2>
+	<span>Progress in this course (100%) <progress value="100" max="100"></progress></span> <br>
+	<span>Progress in Specialization capstone(20%) <progress value="20" max="100"></progress></span> <br>
+	<span>Progress in life goals(50%) <progress value="50" max="100"></progress></span>
+</section>	
+<section>
+	<h2>More About Me</h2>
+   <details><summary>My Childhood</summary>I grew up in city of Hyderabad, India. A City full of history, heritage, culture and modernity.</details>
+</section>
+<footer>
+	<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="WD4Elogo"><span>This page was created by Mohammad Sameer & Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com">Intro to Web Design</a></span>
+</footer> -->
+</body>
+</html>

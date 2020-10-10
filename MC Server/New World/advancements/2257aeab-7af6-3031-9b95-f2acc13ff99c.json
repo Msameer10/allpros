@@ -1,0 +1,203 @@
+{
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:23:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2020-07-10 11:37:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:mooshroom": "2020-07-10 11:43:52 +0530",
+      "minecraft:ocelot": "2020-07-10 11:15:31 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2020-07-10 11:37:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2020-07-10 11:13:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2020-07-10 11:15:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2020-07-10 11:36:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2020-07-10 11:13:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2020-07-10 11:36:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2020-07-10 11:13:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-07-10 11:23:03 +0530",
+      "minecraft:mountains": "2020-07-10 11:16:09 +0530",
+      "minecraft:mushroom_fields": "2020-07-10 11:43:00 +0530",
+      "minecraft:taiga": "2020-07-10 10:47:39 +0530",
+      "minecraft:desert_hills": "2020-07-10 11:48:01 +0530",
+      "minecraft:desert": "2020-07-10 11:23:08 +0530",
+      "minecraft:jungle_hills": "2020-07-10 11:12:59 +0530",
+      "minecraft:bamboo_jungle": "2020-07-10 11:11:42 +0530",
+      "minecraft:warm_ocean": "2020-07-10 11:46:28 +0530",
+      "minecraft:beach": "2020-07-10 11:26:16 +0530",
+      "minecraft:dark_forest": "2020-07-10 11:22:42 +0530",
+      "minecraft:river": "2020-07-10 11:13:01 +0530",
+      "minecraft:lukewarm_ocean": "2020-07-10 11:15:52 +0530",
+      "minecraft:wooded_mountains": "2020-07-10 11:17:35 +0530",
+      "minecraft:bamboo_jungle_hills": "2020-07-10 11:12:44 +0530",
+      "minecraft:wooded_hills": "2020-07-10 11:22:29 +0530",
+      "minecraft:stone_shore": "2020-07-10 11:16:06 +0530",
+      "minecraft:mushroom_field_shore": "2020-07-10 11:43:07 +0530",
+      "minecraft:savanna": "2020-07-10 11:23:13 +0530",
+      "minecraft:plains": "2020-07-10 11:22:22 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2020-07-10 11:36:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2020-07-10 11:36:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2020-07-10 11:43:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2020-07-10 12:21:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:23:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2020-07-10 11:36:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-07-10 11:11:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_horse_armor": "2020-07-10 11:27:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2020-07-10 11:37:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2020-07-10 11:13:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:23:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:23:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2020-07-10 11:13:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:23:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2020-07-10 11:13:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:23:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_horse_armor": "2020-07-10 11:27:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2020-07-10 11:43:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2020-07-10 11:28:24 +0530"
+    },
+    "done": true
+  },
+  "DataVersion": 2230
+}

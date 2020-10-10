@@ -1,0 +1,259 @@
+.head{
+	text-align: center;
+	font-family: Trajan Pro;
+	font-size: 30px;
+	background-color: #DCDCDC;
+	padding-top: 30px;
+	padding-right: 260px;
+	height: 220PX;
+}
+body{
+
+}
+.tagline{
+	font-family: Agency FB;
+	font-size: 20px;
+	color: #D90000;
+	background-color: #DCDCDC;
+}
+.parallax {
+    /* The image used */
+    background-image: url("pic1.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bdypara{
+	font-family: Bahnschrift;
+	padding-left: 60px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+    /*Menubar CSS*/
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    font-family: Bahnschrift;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left : 90px;
+    margin-right: 90px;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #E74C3C;
+    color: white;
+}
+
+li a.active {
+    color: white;
+    animation-name: menuli;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/*Modal*/
+    * {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+.signuphd{
+    color: #34495E;
+    font-family: Bahnschrift;
+}
+.signuphead{
+    color:#C0392B;
+    font-family: Bahnschrift;
+    font-size: 20px;
+}
+@keyframes menuli {
+  0%   {background-color: #2980B9;}
+  25%  {background-color: #3498DB;}
+  50%  {background-color: #1ABC9C;}
+  75%  {background-color: #16A085;}
+  100% {background-color: #1F618D;}
+}
+.kos{
+	 animation-name: kos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    color: #E74C3C;
+}
+@keyframes kos {
+  0%   {color: #E74C3C;}
+  25%  {color: #8E44AD;}
+  50%  {color: #3498DB;}
+  75%  {color: #16A085;}
+  100% {color: #F1C40F;}
+}
+.phome{
+	font-family: Bahnschrift;
+	color: black;
+	padding-left: 40px;
+	font-size: 17px;
+	font-style: bold;
+}
+
+/*pic2 CSS*/
+.pic2 { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.pic2 h2 { 
+   position: absolute; 
+   top: 420px; 
+   left: 0; 
+   width: 100%; 
+}
+.pic2 h2 span { 
+   color: white; 
+   font: bold 35px/55px Agency FB;; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+/*pic3 CSS*/
+.pic3 { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.pic3 h2 { 
+   position: absolute; 
+   top: 420px; 
+   left: 0; 
+   width: 100%; 
+}
+.pic3 h2 span { 
+   color: white; 
+   font: bold 35px/55px Agency FB;; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}

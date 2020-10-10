@@ -1,0 +1,161 @@
+{
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2020-07-10 11:25:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2020-07-10 11:24:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2020-07-10 12:23:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2020-07-10 12:21:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2020-07-10 11:07:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:16:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:16:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-07-10 11:12:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2020-07-10 11:44:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:panda": "2020-07-10 11:08:28 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2020-07-10 11:14:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:16:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:16:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2020-07-10 11:08:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2020-07-10 11:14:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:16:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2020-07-10 11:07:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2020-07-10 11:25:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2020-07-10 11:44:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2020-07-10 11:14:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2020-07-10 11:16:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2020-07-10 11:24:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-07-10 11:22:08 +0530",
+      "minecraft:mountains": "2020-07-10 11:16:21 +0530",
+      "minecraft:mushroom_fields": "2020-07-10 11:42:57 +0530",
+      "minecraft:taiga": "2020-07-10 11:03:45 +0530",
+      "minecraft:desert_hills": "2020-07-10 11:48:04 +0530",
+      "minecraft:taiga_hills": "2020-07-10 11:04:27 +0530",
+      "minecraft:desert": "2020-07-10 11:23:08 +0530",
+      "minecraft:jungle": "2020-07-10 11:06:47 +0530",
+      "minecraft:jungle_hills": "2020-07-10 11:06:49 +0530",
+      "minecraft:bamboo_jungle": "2020-07-10 11:07:02 +0530",
+      "minecraft:warm_ocean": "2020-07-10 11:36:36 +0530",
+      "minecraft:beach": "2020-07-10 11:05:38 +0530",
+      "minecraft:dark_forest": "2020-07-10 11:22:44 +0530",
+      "minecraft:river": "2020-07-10 11:05:51 +0530",
+      "minecraft:lukewarm_ocean": "2020-07-10 11:15:52 +0530",
+      "minecraft:snowy_taiga": "2020-07-10 12:24:47 +0530",
+      "minecraft:bamboo_jungle_hills": "2020-07-10 11:10:43 +0530",
+      "minecraft:wooded_hills": "2020-07-10 11:22:19 +0530",
+      "minecraft:mushroom_field_shore": "2020-07-10 11:43:18 +0530",
+      "minecraft:savanna": "2020-07-10 11:23:14 +0530",
+      "minecraft:plains": "2020-07-10 11:04:46 +0530"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

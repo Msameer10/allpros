@@ -1,0 +1,52 @@
+h1{
+	color: white;
+	text-align: left;
+	background-image: linear-gradient(to bottom right,#F40000,#0080FF);
+	min-height: 160px;
+	margin: 0;
+	font-size: 80px;
+	font-family: Agency FB;
+	padding-left: 30px;
+	padding-top: 50px;
+}
+
+    /*Menubar CSS*/
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-image: linear-gradient(to bottom right,#2C69FF,#2CFFF9);
+    font-family: Agency FB;
+    font-size: 25px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-image: linear-gradient(to bottom right,#C5062C,#EC00FF);
+    color: white;
+}
+
+li a.active {
+    color: black;
+    background-image: linear-gradient(to bottom right,#FFB52C,#DCFF00);
+}
+ul {
+
+    margin-left : 90px;
+    margin-right: 90px;
+    position: sticky;
+    top: 0;
+}

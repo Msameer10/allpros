@@ -1,0 +1,6 @@
+Vanilla Tweaks Resource Pack
+Version: 1.16
+Packs:
+	Age25Kelp
+	MoreCrosshairs-PlusDot
+	RainbowExperience

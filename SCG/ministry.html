@@ -1,0 +1,453 @@
+<!Doctype html><title>Sameerian Country Government</title>
+<style type="text/css">
+	.h1 {
+		background-color: #154360  ;
+		font-style: bold oblique;
+        font-size: 80px;  
+        margin-top: 0px;
+        min-height: 170px;
+	}
+	.htr {
+	  color:#959897 ;
+	  font-size: 18px;
+	}
+    .h3ftr{
+        background-color:#A93226;
+        color:white;
+        font-family: Bahnschrift;
+        text-align: right;
+        margin: 0;
+        padding-top: 30px;
+        padding-right: 25px;
+        font-size: 25px;
+    }
+    .divftr{
+        background-color:#A93226;
+        color:#AAB7B8;
+        font-family: Bahnschrift;
+        padding: 20px;
+        margin: 0;
+    }
+	h4{
+		font-family:Bahnschrift;
+		color:#1B0843 ;
+		background-color:#C2185B  ;
+		text-align: center;
+	}
+	h5{
+		background-color: #D2D3D6;
+		color: #131314 ;
+		font-family: Bahnschrift;
+		text-align: center;
+		padding: 10px;
+        padding-top: 40px;
+        margin: 0;
+	}
+	p {
+		color: #AFD5EF ;
+		font-family:Bahnschrift;
+	}
+    /*Menubar CSS*/
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    font-family: Bahnschrift;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #E74C3C;
+    color: white;
+}
+
+li a.active {
+    color: white;
+    background-color: #154360;
+}
+ul {
+
+    margin-left : 90px;
+    margin-right: 90px;
+    position: sticky;
+    top: 0;
+}
+
+.h2{
+    color:#CB4335;
+    font-family: Bahnschrift;
+    padding-left: 40px;
+    font-size: 40px;
+}
+.h3{
+    color:#CB4335;
+    font-family: Bahnschrift;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.sam{
+    color:#890843;
+    font-family: Bahnschrift;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 40px;
+    margin: 0;
+}
+.samde{
+    text-align: center;
+    color:#2471A3;
+    font-family: Bahnschrift;
+}
+.ti{
+    color:#890843;
+    font-family: Bahnschrift;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+.tide{
+    text-align: center;
+    color:#2471A3;
+    font-family: Bahnschrift;
+    margin: 0;
+}
+/*Image CSS*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    width:70%;
+}
+b{
+    color: #E74C3C;
+    font-family: Bahnschrift;
+
+}
+/*Modal*/
+    * {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+.signuphd{
+    color: #34495E;
+    font-family: Bahnschrift;
+}
+.signuphead{
+    color:#C0392B;
+    font-family: Bahnschrift;
+    font-size: 20px;
+}
+</style>
+<head><link rel="shortcut icon" href="C://Users/moham/Documents/SCG/favicon.ico" />
+	<h1 align="center" class="h1"><font color="#D0D3D4" face="Copperplate Gothic Light"><img src="sclogo.png" style="float: left">SAMEERIAN COUNTRY GOVERNMENT</font></h1>
+</head>
+<ul>
+  <li><a href="scg.html">Home</a></li>
+  <li><a class="active" href="ministry.html">Ministry</a></li>
+  <li><a href="contact.html">Contacts</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="up.html">Updates</a></li>
+  <li><a href="main_map.html">Map</a></li>
+  <li style="background-color:#FFDC00;"><a href="cons.html" style="color: black;">CONSTITUTION</a></li>
+  <li><a href="Libert.html">Libert</a></li>
+  <li><a href="Kingdoms.html">Kingdoms</a></li>
+  <!--<li style="background-color: #F1C40F;"><a style="color: black;" href="poll.html">Polls</a></li>-->
+  <li style="float: right;background-color: #117864;"><a style="color: white;" onclick="document.getElementById('id01').style.display='block'">Sign Up</a></li>
+  <li style="float: right;background-color:#148F77;"><a href="login.html" style="color: white;">Login</a></li>
+</ul>
+<br>
+<body bgcolor="white  ">
+ <p class="h2">MINISTRY:</p>
+ <img src="Me (2).png" alt="MOHAMMAD SAMEER" class="center" height="20%" width="20%"><p class="sam" align="center">|&emsp;MOHAMMAD SAMEER&emsp;|</p>
+ <p class="samde"><font style="color:black;">PRESIDENT<br>Sameerian Country<br></font><br><b>King of Libert</b><br>Duke of Stantford<br>Head of State of Sameerian City<br>Head of State of Sa'eer<br>Leader of Sameerian Country Government</p><br><br><br><br><br><br><br>
+ <div>
+     <p>
+         <h3 class="ti">⚜ MOHAMMED BAYEK SALEM ⚜</h3><br>
+         <p class="tide">Vice President<br>Sameerian Country<br>Duke of Amen</p><br><br>
+         <h3 class="ti">⚜ MOHAMMED SALMAN ⚜</h3><br>
+         <p class="tide">Head of States<br>Sameerian Country<br>Duke of Euprates</p><br><br>
+         <h3 class="ti">⚜ ALTAIR IBN-LA'AHAD ⚜</h3><br>
+         <p class="tide">Home Minister<br>Sameerian Country<br>Duke of Masyaf</p><br><br>
+         <h3 class="ti">⚜ JUSTICE SYED HAMZA YUSUF ⚜</h3><br>
+         <p class="tide">Cheif Justice<br>Sameerian Country Judiciary</p><br><br>
+         <h3 class="ti">⚜ MOHAMMED ABDUL RAHMAN ⚜</h3><br>
+         <p class="tide">Army General<br>Sameerian Country<br>Ministry of Defence</p><br><br>
+         <h3 class="ti">⚜ SHEIKH ABDULLAH ⚜</h3><br>
+         <p class="tide">Prime Minister<br>Sameerian Country<br>Duke of Aden</p><br><br><hr>
+         <p class="h3">COUNCIL OF MINISTERS:</p>
+         <h3 class="ti">⚜ SHEIKH ABDUL-AZIZ ⚜</h3><br>
+         <p class="tide">Finance Minister<br>Ministry of Finance</p><br><br>
+         <h3 class="ti">⚜ SHEIKH NOUMAN ALI ⚜</h3><br>
+         <p class="tide">Internal Affairs Minister<br>Sameerian Country<br>President of Majlis Al-Shoura</p><br><br>
+         <h3 class="ti">⚜ ROBERT D'VILLA⚜</h3><br>
+         <p class="tide">External Affairs Minister<br>Sameerian Country</p><br><br>
+         <h3 class="ti">⚜ RICO RODRIGUEZ BARAGIA ⚜</h3><br>
+         <p class="tide">Home-Land Security Minister</p><br><br>
+         <h3 class="ti">⚜ SHEIKH HABIB ALI ⚜</h3><br>
+         <p class="tide">Director , Crime Investigation Agency<br>Sameerian Country Judiciary</p><br><br>
+         <h3 class="ti">⚜ SHEIKH AFASY ⚜</h3><br>
+         <p class="tide">Director , National Investigation Agency<br>Sameerian Country Judiciary</p><br><br>
+         <h3 class="ti">⚜ AYESHA FATIMA ⚜</h3><br>
+         <p class="tide">Ministry of Commerce<br><b>Queen of Libert</b><br>Duchess of Ruby</p><br><br>
+         <h3 class="ti">⚜ SYED USMAN ⚜</h3><br>
+         <p class="tide">Human-Resource Development Minister</p><br><br>
+         <h3 class="ti">⚜ MIR AKBAR ALI ⚜</h3><br>
+         <p class="tide">Co-Leader of Sameerian Country Government</p><br><br>
+         <h3 class="ti">⚜ SHABAZ TAREEQ MEH'D ⚜</h3><br>
+         <p class="tide">Grand Visor , Cabinet Ministry<br>Sameerian Country Government</p><br><br>
+         <h3 class="ti">⚜ CONAN ARTHUR BENAT ⚜</h3><br>
+         <p class="tide">Treasurer , Sameerian Country</p><br><br>
+         <h3 class="ti">⚜ IMAM SHEIKH MUFTI MUHAMMAD ABUBAKAR IBN SALMAN ⚜</h3><br>
+         <p class="tide">Grand Imam of Al-Masjid-Al-Muqadasa<br>Sameerian City</p><br><br>
+         <h3 class="ti">⚜ IMAM MUFTI MUHAMMAD AKHTAR RAZA QADIRI AL-AZHARI ⚜</h3><br>
+         <p class="tide">Grand Imam of Al-Masjid-Al-Ja'miah<br>Sa'eer </p><br><br>
+         <h3 class="ti">⚜ MUFTI SHEIKH OMAR SULIEMAN ⚜</h3><br>
+         <p class="tide">Head of Counil of Laj'nat Al-Mufti</p><br><br>
+         <h3 class="ti">⚜ ROBERT JUSTIN CRUZ ⚜</h3><br>
+         <p class="tide">Ministry of Minority<br></p><br><br>
+         <h3 class="ti">⚜ SERGI LEONARDO ⚜</h3><br>
+         <p class="tide">Ministry of Agriculture</p><br><br>
+         <h3 class="ti">⚜ DR.SHEIKH RAYYAN AHMED ⚜</h3><br>
+         <p class="tide">Ministry of Health</p><br><br>
+         <h3 class="ti">⚜ SHEIKH SULAIMAN ⚜</h3><br>
+         <p class="tide">Ministry of Industries</p><br><br> 
+         <h3 class="ti">⚜ ABULLAH HUSSEIN ⚜</h3><br>
+         <p class="tide">Ministry of Labour</p><br><br>
+         <h3 class="ti">⚜ DR.ZAINAB FATIMA ⚜</h3><br>
+         <p class="tide">Ministry of Education</p><br><br>
+         <h3 class="ti">⚜ MOHAMMED ABDUL WAHHAB ⚜</h3><br>
+         <p class="tide">Ministry of Tourism</p><br><br>
+         <h3 class="ti">⚜ AL-SHEIKH MOHAMMED ZAYED ⚜</h3><br>
+         <p class="tide">Ministry of Housing and Urban Development</p><br><br>
+         <h3 class="ti">⚜ SHEIKH SAYYID ALI ⚜</h3><br>
+         <p class="tide">Ministry of Metropolitian Corparation</p><br><br>
+         <h3 class="ti">⚜ SA'ID AQIL SIRADJ ⚜</h3><br>
+         <p class="tide">Ministry of Transportation</p><br><br>
+         <h3 class="ti">⚜ SULTAN QABOOS ⚜</h3><br>
+         <p class="tide">Ministry of Energy</p><br><br>
+         <h3 class="ti">⚜ SHAH KARIM AL-HUSSAYNI ⚜</h3><br>
+         <p class="tide">Ministry of Electricity</p><br><br>
+         <h3 class="ti">⚜ MOHAMMAD AL-MANSOUR ⚜</h3><br>
+         <p class="tide">Director , National Environment Protection Agency,<br>Ministry of Environment,Forest and Climate Change</p><br><br>
+         <h3 class="ti">⚜  SHAYKH IBRAHIM SALIH ⚜</h3><br>
+         <p class="tide">Ministry of Management</p><br><br>
+         <h3 class="ti">⚜ ANDRES ADURIZ ⚜</h3><br>
+         <p class="tide">Ministry of Trade</p><br><br>
+         <h3 class="ti">⚜ MICHAEL DAVID NARROVO ⚜</h3><br>
+         <p class="tide">Director , National Income Tax Department<br>Sameerian Country Government</p><br><br>
+         <h3 class="ti">⚜ SHEIKH UMAR HAFEZ ⚜</h3><br>
+         <p class="tide">Ministry of Economy</p><br><br>
+         <h3 class="ti">⚜ SYED MAHMOOD MADANI ⚜</h3><br>
+         <p class="tide">Ministry of Electrical and Electronics</p><br><br>
+         <h3 class="ti">⚜ SHEIKH TAMIM HAMAD ⚜</h3><br>
+         <p class="tide">Ministry of Food-Processing Industries</p><br><br>
+         <h3 class="ti">⚜ RACHED GHANNOUCHI ⚜</h3><br>
+         <p class="tide">Ministry of Tribal Affairs</p><br><br>
+         <h3 class="ti">⚜ SHEIKHA MUNIRA QUBEYSI ⚜</h3><br>
+         <p class="tide">Department of Social Justice and Empowerment,<br>Sameerian Country Judiciary</p><br><br>
+         <h3 class="ti">⚜ AMIR SHEIKH MOHAMMED ⚜</h3><br>
+         <p class="tide">Ministry of Skill Development and Entrepreneurship<br>Ministry of Statistics and Programme Implementation</p><br><br>
+         <h3 class="ti">⚜ MUHAMMAD MUSA ⚜</h3><br>
+         <p class="tide">Ministry of Petroleum and Natural Gas<br>Minsitry of Coal and Minerals<br><br>Earl of Libert</p><br><br>
+         <h3 class="ti">⚜ USAMA AL-SAYYID ⚜</h3><br>
+         <p class="tide">Ministry of Roadways and Highways</p><br><br>
+         <h3 class="ti">⚜ AMR KHALED MASHAL  ⚜</h3><br>
+         <p class="tide">Ministry of Textiles<br>Ministry of Silks and Clothing Industries</p><br><br>
+         <h3 class="ti">⚜ MAHMOUD ABBAS KHAN ⚜</h3><br>
+         <p class="tide">Ministry of Steel<br>Ministry of Heavy Industries<br><br>
+         <h3 class="ti">⚜ SHEIKH HAMZA YUSUF HANSON ⚜</h3><br>
+         <p class="tide">Ministry of Small-Scale Industries</p><br><br>
+         <h3 class="ti">⚜ SHEIKH ABDUL-HOUTHI ⚜</h3><br>
+         <p class="tide">Director,Department of Public Enterprises<br>Sameeian Country Government</p><br><br>
+         <h3 class="ti">⚜ DR.SHAYKH MUSTAFA HOSNY ⚜</h3><br>
+         <p class="tide">Ministry of Mines<br>Director , Department of Earth Sciences<br>Sameeian Country Government</p><br><br>
+         <h3 class="ti">⚜ HABIB LUTHFI YAHYA ⚜</h3><br>
+         <p class="tide">Ministry of Rural Development</p><br><br>
+         <h3 class="ti">⚜ SHAYKH MAHMUD EFFENDI ⚜</h3><br>
+         <p class="tide">Minister of Parliamentary Affairs<br>Sameerian Country Government</p><br><br>
+         <h3 class="ti">⚜ RANIA AL-ABDULLAH ⚜</h3><br>
+         <p class="tide">Ministry of Women and Child-Care Development</p><br><br>
+         <h3 class="ti">⚜ SHEIKH MOEZ MASOUD ⚜</h3><br>
+         <p class="tide">Ministry of Rivers and Water Bodies<br>Ministry of Sanitation</p><br><br>
+         <h3 class="ti">⚜ SHEIKH ABDUL HAKIM ⚜</h3><br>
+         <p class="tide">Director , Department of Consumer Affairs<br>Sameeian Country Government</p><br><br>
+         <h3 class="ti">⚜ SHEIKH DR.YUSUF AL-QARADAWI ⚜</h3><br>
+         <p class="tide">Director , Department of Science and Technology<br>Sameerian Country Government</p><br><br>
+         <h3 class="ti">⚜ DR.AREF NAYED ⚜</h3><br>
+         <p class="tide">Director , Department of Aerospace and Astromical Sciences</p><br><br>
+         <h3 class="ti">⚜ LIAM HEMSWORTH PAYNE ⚜</h3><br>
+         <p class="tide">Minsitry of Civil Aviation</p><br><br>
+         <h3 class="ti">⚜ SHEIKH ISMAIL ⚜</h3><br>
+         <p class="tide">Director , Department of Sea and Water Ways,<br>Ministry of Transportation</p><br><br>
+         <h3 class="ti">⚜ LIONEL CARPI ⚜</h3><br>
+         <p class="tide">Director of Election Comission</p><br><br>
+         <h3 class="ti">⚜ HARRIS GABRIEL ⚜</h3><br>
+         <p class="tide">Ministry of Environment,Forest and Climate Change<br>Ministry of Chemicals and Fertilizers</p><br><br>
+         <h3 class="ti">⚜ SHEIKH ABDULLAH ⚜</h3><br>
+         <p class="tide">Ministry of Forest and Wildlife</p><br><br>
+
+
+     </p>
+ </div>
+<hr>
+<br><br>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal" style="font-family: bahnschrift;">x</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1 class="signuphd">Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b class="signuphead">Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b class="signuphead">Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b class="signuphead">Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label style="font-family: Bahnschrift;">
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px;"> Remember me
+      </label>
+      <p style="color:black;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button style="width: 30%;float: right;background-color:" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signup" style="width: 30%;float: left;background-color:  #1F618D;">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+ <marquee behaviour="scroll" direction="left" scrollamount="5"><p>&emsp;&emsp;&emsp;&emsp;</p></marquee>
+</body>
+<footer><div><h3 class="h3ftr">SAMEERIANCOUNTRYGOVERNMENT.SC</h3><nav style="float: left;padding-left: 40px;padding-right: 70px;"><p class="divftr">Citizens<br>Policies<br>Projects<br>Campaigns<br>Missions</p></nav><nav style=""><p class="divftr">Organisations<br>Rights<br>Constitutional Amedments<br>Press Releases<br>Notices</p></nav></div><h5> © Copyrights Sameerian Government -2019. All Rights Reserved.<br>Updated and maintained by www.scg.sc | Content subject to change, All times are in SST.<br>Contact Us- Email: support@scg.com [or] writeto@sg.com | Toll Free: +05 1000-100-000.<br>
+	All Legals subject to Sameerian Country Judiciary.<br><br></h5></footer>
+</html> 

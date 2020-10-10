@@ -1,0 +1,71 @@
+h1 {
+		background-color: #5D6D7E  ;
+		font-style: bold oblique;
+        font-size: 80px;  
+        margin-top: 0px;
+	}
+	table {
+		color: white;
+		font-family:Bahnschrift; 
+		width: 1200px;
+		text-align: center;
+
+	}
+	.htr {
+	  color:#959897 ;
+	  font-size: 18px;
+	}
+	h4{
+		font-family:Bahnschrift;
+		color:#1B0843 ;
+		background-color:#C2185B  ;
+		text-align: center;
+	}
+	h5{
+		background-color: #D2D3D6;
+		color: #131314 ;
+		font-family: Bahnschrift;
+		text-align: center;
+		padding: 10px;
+	}
+	p {
+		color: #AFD5EF ;
+		font-family:Bahnschrift;
+	}
+    /*Menubar CSS*/
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    font-family: Bahnschrift;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #E74C3C;
+    color: white;
+}
+
+li a.active {
+    color: white;
+    background-color: #154360;
+}
+ul {
+
+    margin-left : 90px;
+    margin-right: 90px;
+}

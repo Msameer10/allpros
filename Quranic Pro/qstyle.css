@@ -1,0 +1,117 @@
+/*Heading*/
+h1{
+	color:#E5E8E8; 
+    background-color:#1A5276;
+    font-size:30px;
+    font-family:Felix Titling;
+    text-align: center;
+    padding: 40px;
+    min-height: 200px;
+    margin: 0;
+}
+.h1{
+	font-family:Book Antiqua;
+	color:#E5E8E8;
+	font-size: 90px; 
+}
+.h12{
+	font-family:Monotype Corsiva;
+	color:#E5E8E8;
+	font-size: 70px;
+}
+.h11{
+     color:#E5E8E8;
+	font-size: 20px;
+}
+/*Navigation Bar*/
+ul {
+    list-style-type: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Bahnschrift;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F0F3F4;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color:#5499C7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #5499C7;
+    color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.dropdown-content a:hover {
+	background-color:#ECF0F1;
+color:red;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active {
+	color:white;
+	background-color:#E74C3C;
+}
+/*Body*/
+body {
+	font-family: Bahnschrift;
+}
+/*Footer*/
+.h3ftr{
+        background-color:#A93226;
+        color:white;
+        font-family: Bahnschrift;
+        text-align: right;
+        margin: 0;
+        padding-top: 30px;
+        padding-right: 25px;
+        font-size: 25px;
+    }
+    .divftr{
+        background-color:#A93226;
+        color:#AAB7B8;
+        font-family: Bahnschrift;
+        padding: 20px;
+        margin: 0;
+    }
+    h5{
+        background-color: #D2D3D6;
+        color: #131314 ;
+        font-family: Bahnschrift;
+        text-align: center;
+        padding: 10px;
+        padding-top: 40px;
+        margin: 0;
+    }
